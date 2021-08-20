@@ -1,0 +1,31 @@
+*, 
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a, p{
+    
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: 'Anton', sans-serif;
+}
+/* HELPERS */
+.container {
+    width: 90%;
+    margin: auto;
+ 
+}
+   
