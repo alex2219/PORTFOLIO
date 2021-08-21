@@ -12,19 +12,19 @@
 <body>
     <!-- Inicio del header -->
     <header>
-        <nav class="container row justify-between">
+        <nav class="container row ">
             <div class="logo d-flex justify-center align-center col-2">
                <a class="a1" href="#">ALEX</a>
             </div>
                <ul class=" menu headerul d-flex justify-between align-center col-2">
-                   <li ><a class="a1" href="#">Contact</a></li>
-                   <li ><a class="a2" href="#">Menu</a>
+                   <li ><a class="a1" href="#contact">Contact</a></li>
+                   <li ><a class="a2" href="#menu">Menu</a>
                     <ul class="submenu">
-						<li><a href="#">Servicio #1</a></li>
-						<li><a href="#">Servicio #2</a></li>
-						<li><a href="#">Servicio #3</a></li>
-                        <li><a href="#">Servicio #1</a></li>
-						<li><a href="#">Servicio #2</a></li>
+						<li><a class="caja" href="#about">ABOUT ME</a></li>
+						<li><a class="caja" href="#services">SERVICES</a></li>
+						<li><a class="caja" href="#references">REFERENCES</a></li>
+                        <li><a class="caja" href="#resume">RESUME</a></li>
+						<li><a class="caja" href="#contact">CONTACT</a></li>
 					</ul>   
                 </li>
                </ul>
@@ -41,10 +41,11 @@
     <!-- Fin de seccion principal --> 
 
     <!-- INICIO DE SECCIÓN ABOUT ME -->
+    <a name="about"></a>
     <section class="about">
         <div class="container container-about">
             <div class="img-about">
-                <img src="assets/img/3.jpeg" alt="About Me">
+                <img src="assets/img/3.1.jpeg" alt="About Me">
             </div>
             <div class="about-info">
                 <p class="who">who am i</p>
@@ -55,35 +56,35 @@
                 <p class="about-info__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Maiores eius sint magni minus modi amet eum nobis corporis enim similique ab, nulla aspernatur pariatur tempora.</p>
                      <div class="cuadros"> 
-                        <div class="absolute-relative">
-                            <p>19</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                        <div class="absolute-relative-1">                           
+                            <div class="absolute-1-1">
+                                <p><img src="assets/img/calendario.svg" alt="calendario">19</p>
+                            </div>
                         </div>
-                        <div class="absolute-relative">
-                            <p>BOGOTÁ, COLOMBIA</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                        <div class="absolute-relative-1">
+                            <div class="absolute-1-1">      
+                            <p><img class="iconos-about" src="assets/img/location.svg" alt="location">BOGOTÁ, COLOMBIA</p>
+                            </div>
                         </div>
-                        <div class="absolute-relative">
-                            <p>MASTER</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                        <div class="absolute-relative-1">
+                            <div class="absolute-1-1">
+                                <p><img class="iconos-about" src="assets/img/gorro-de-graduacion.svg" alt="gorro-de-graduacion">MASTER</p>
+                            </div>
                         </div>
-                        <div class="absolute-relative">
-                            <p>alexcamelo2219@gmail.com</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                        <div class="absolute-relative-1">
+                            <div class="absolute-1-1">
+                                <p class="tex-co"><img class="icono-correo-about" src="assets/img/correo-electronico.svg" alt="correo">alexcamelo2219@gmail.com</p>
+                            </div>
                         </div>
-                        <div class="absolute-relative">
-                            <p>+57 3xxxxxxxxxx</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                        <div class="absolute-relative-1">
+                            <div class="absolute-1-1">
+                                <p><img class="iconos-about" src="assets/img/viejo-telefono-tipico.svg" alt="telefono">+57 3xxxxxxxxxx</p>
+                            </div>
                         </div>
-                        <div class="absolute-relative">
-                            <p>xcxcxcxxcx</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                        <div class="absolute-relative-1">
+                            <div class="absolute-1-1">
+                                <p><img class="icono-correo-about" src="assets/img/logotipo-de-linkedin.svg" alt="linkedin">xcxcxcxxcx</p>
+                            </div>
                         </div>
                      </div> 
                 <div class="about-buttons">
@@ -95,40 +96,42 @@
     </section>
     <!-- FIN DE ABOUT ME -->
         <!-- INICIO DE SECCIÓN SERVICES -->
+        <a name="services"></a>
         <section class="services">
                 <div class="services-info">
                     <p class="what">what i do</p>
                     <h2>MY SERVICES</h2>
                          <div class="cuadros-services"> 
                             <div class="absolute-relative-s">
-                                <p class="p-services">GRAPHIC DESIGN</p>
-                                <div class="absolute-1"></div>
-                                <div class="absolute-2"></div>
+                                <div class="absolute-1-s">
+                                    <img class="iconos-services" src="assets/img/paleta-de-colorb.svg" alt="paleta">
+                                    <p class="p-services">GRAPHIC DESIGN</p>
+                                </div>
                             </div>
                             <div class="absolute-relative-s">
-                                <p class="p-services">WEB DEVELOPMENT</p>
-                                <div class="absolute-1"></div>
-                                <div class="absolute-2"></div>
+                                <div class="absolute-1-s">
+                                    <img class="iconos-services" src="assets/img/monitor-y-telefono.svg" alt="monitor">
+                                    <p class="p-services">WEB DEVELOPMENT</p></div>
                             </div>
                             <div class="absolute-relative-s">
-                                <p class="p-services">MEDIA MARKETING</p>
-                                <div class="absolute-1"></div>
-                                <div class="absolute-2"></div>
+                                <div class="absolute-1-s">
+                                    <img class="iconos-services" src="assets/img/camara-de-video.svg" alt="camara">
+                                    <p class="p-services">MEDIA MARKETING</p></div>
                             </div>
                             <div class="absolute-relative-s-2">
-                                <p class="p-services">ADVETISING</p>
-                                <div class="absolute-1"></div>
-                                <div class="absolute-2"></div>
+                                <div class="absolute-1-s">
+                                    <img class="iconos-services" src="assets/img/conexion.svg" alt="conexion">
+                                    <p class="p-services">ADVERTISING</p></div>
                             </div>
                             <div class="absolute-relative-s-2">
-                                <p class="p-services">GAME DEVELOPMENT</p>
-                                <div class="absolute-1"></div>
-                                <div class="absolute-2"></div>
+                                <div class="absolute-1-s">
+                                    <img class="iconos-services" src="assets/img/nintendo.svg" alt="nintendo">
+                                    <p class="p-services">GAME DEVELOPMENT</p></div>
                             </div>
                             <div class="absolute-relative-s-2">
-                                <p class="p-services">ANALYTICS</p>
-                                <div class="absolute-1"></div>
-                                <div class="absolute-2"></div>
+                                <div class="absolute-1-s">
+                                    <img class="iconos-services" src="assets/img/grafico-de-barras.svg" alt="grafica">
+                                    <p class="p-services">ANALYTICS</p></div>
                             </div>
                          </div> 
                 </div>
@@ -136,6 +139,7 @@
         </section>
         <!-- FIN DE SERVICES -->
                 <!-- INICIO DE SECCIÓN REFERENCES -->
+                <a name="references"></a>
                 <section class="references">
                     <div class="references-info">
                         <p class="who">who refers me</p>
@@ -144,21 +148,30 @@
                              <div class="cuadros-references"> 
                                 <div class="absolute-relative-r">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
+                                    quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
                                     quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!</p>
-                                    <div class="absolute-1"></div>
-                                    <div class="absolute-2"></div>
+                                    <p class="nombres">DON PEPE</p>
+                                    <div class="absolute-1"><p>FREDY CAMELO</p></div>
+                                    <div class="absolute-2"><P>DESAROLLADOR WEB</P></div>
+                                </div>
+                                <div class="absolute-relative-r-c">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
+                                        quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
+                                        quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!</p>
+                                    <p class="nombres">PEPITO PEREZ</p>
+                                        <div class="absolute-1"><p class="c">FREDY CAMELO</p></div>
+                                        <div class="absolute-2"><P>DESAROLLADOR WEB</P></div>
                                 </div>
                                 <div class="absolute-relative-r">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
+                                        quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
                                         quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!</p>
-                                    <div class="absolute-1"></div>
-                                    <div class="absolute-2"></div>
-                                </div>
-                                <div class="absolute-relative-r">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad officia repudiandae, molestiae praesentium, 
-                                        quia repellendus explicabo totam necessitatibus quae vitae iste quibusdam deserunt nobis animi odit iusto ipsum nemo!</p>
-                                    <div class="absolute-1"></div>
-                                    <div class="absolute-2"></div>
+                                        <p class="nombres">TOM SAWYER</p>
+                                        <div class="absolute-1"><p>FREDY CAMELO</p></div>
+                                        <div class="absolute-2"><P>DESAROLLADOR WEB</P></div>
                                 </div>
                                 </div>
                              </div> 
@@ -167,6 +180,7 @@
             </section>
             <!-- FIN DE PRICING -->
                 <!-- INICIO DE RESUME -->
+                <a name="resume"></a>
     <section class="resume-1">
         <div class="container container-resume">
             <div class="resume">
@@ -174,46 +188,48 @@
                 <h2>MY EXPERTISES</h2>
                 <div class="cuadros-resume"> 
                         <div class="absolute-resume">
-                            <p>MY EXPERIENCIE</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                            <div class="absolute-1-resume">
+                                <p>MY EXPERIENCIE</p></div>
                         </div>
                         <div class="absolute-resume">
-                            <p>MY EDUCATION</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                            <div class="absolute-1-resume">
+                                <p>MY EDUCATION</p></div>
                         </div>
                         <div class="absolute-resume">
-                            <p>MY SKILLS</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                            <div class="absolute-1-resume">
+                                <p>MY SKILLS</p></div>
                         </div>
                 </div>
             </div>
                      <div class="cuadros-resume-2"> 
                         <div class="absolute-relative-resume">
-                            <p> Senior Architect
-                                Collaborate with creative and development teams on the execution of ideas.</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                            <p class="t"> Senior Architect </p>
+                            <p class="empresa">Google Inc.</p>
+                            <p class="relleno"> Collaborate with creative and development teams on the execution of ideas.</p>
+                            <div class="absolute-1-res"><p>FREDY CAMELO</p></div>
+                            <div class="absolute-2-res"><P>DESAROLLADOR WEB</P></div>
                         </div>
                         <div class="absolute-relative-resume">
-                            <p>Front-end Developer
-                                Collaborate with creative and development teams on the execution of ideas.</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                            <p class="t">Front-end Developer </p>
+                            <p class="empresa">Facebook.</p>
+                            <p class="relleno">Collaborate with creative and development teams on the execution of ideas.</p>
+                            <div class="absolute-1-res"><p>FREDY CAMELO</p></div>
+                            <div class="absolute-2-res"><P>DESAROLLADOR WEB</P></div>
                         </div>
                         <div class="absolute-relative-resume">
-                            <p>UI Developer
-                                Collaborate with creative and development teams on the execution of ideas.</p>
-                            <div class="absolute-1"></div>
-                            <div class="absolute-2"></div>
+                            <p class="t">UI Developer </p>
+                            <p class="empresa">Envato.</p>
+                            <p class="relleno">Collaborate with creative and development teams on the execution of ideas.</p>
+                            <div class="absolute-1-res"><p>FREDY CAMELO</p></div>
+                            <div class="absolute-2-res"><P>DESAROLLADOR WEB</P></div>
                         </div>
                      </div> 
         </div>
     </section>
     <!-- FIN DE RESUME -->
      <!-- INICIO DE CONTACT -->
+     <a name="contact"></a>
+     <section class="contact-1">
      <p class="where">where to contact</p>
      <h2 class="contact">CONTACT</h2>
      <section class="form col-8 container flex align-center justify-center">
@@ -235,6 +251,7 @@
                 <li><a href="#" class="link"><img src="assets/img/youtube.svg" alt="youtube"></a></li>
             </ul>
         </nav>
+        <p>©Copy Rigth todos los derechos reservado</p>
      </footer>
      <!-- FIN DEL FOOTER -->
 </body>

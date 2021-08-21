@@ -9,8 +9,7 @@ ul{
     list-style: none;
 }
 
-a, p{
-    
+a, p{  
     text-decoration: none;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
