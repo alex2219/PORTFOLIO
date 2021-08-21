@@ -11,6 +11,7 @@ header{
   padding: 1.5rem 0;
   /* background-color: white; */
   z-index: 999999;
+  transition: all 0.3s ease;
 }
 .logo a {
  color: black;
@@ -27,7 +28,10 @@ div.logo a:hover {
   letter-spacing: 3px;
   font-size: 2.1rem;  
 }
-
+.fixed-header{
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 100%;
+}
 ul.headerul li a{
   font-size: 1.5rem;
   color: white;
@@ -36,6 +40,7 @@ ul.headerul li a.a1{
   margin-left: 61rem;
   margin-right: 2rem;
 }
+
 ul.headerul li a:hover{
   font-size: 1.6rem;
   color: red;
@@ -69,6 +74,9 @@ ul.headerul li a.a2:hover{
     padding: 1.5rem 0;
     z-index: 999999;
   }
+.fixed-header-res{
+    background-color: rgb(0, 0, 0, 0.6);
+  }
     ul.header li a.a2{
       display: inline-block;  
       padding: 0px 0px;
@@ -85,6 +93,16 @@ ul.headerul li a.a2:hover{
   }
   ul.headerul li a.a2{
     margin-left: 12rem;
+  }
+  .fixed-header div.logo a {
+    color: white;
+    letter-spacing: 3px;
+    transition: background-color 0.7s;
+  }
+  .fixed-header div.logo a:hover {
+    color: red;
+    letter-spacing: 3px;
+    font-size: 2.1rem;  
   }
 
 }
@@ -111,6 +129,14 @@ ul.headerul li a.a2:hover{
 	visibility: visible;
 	opacity: 1;
 }
+.fixed-header ul.submenu li a.caja-1{
+  background-color: rgb(0, 0, 0, 0.4);
+  padding-top: 27px;
+}
+.fixed-header ul.submenu li a.caja{
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
 @media (max-width: 768px){
   .submenu{
     position: absolute;
@@ -129,9 +155,29 @@ ul.headerul li a.a2:hover{
   .submenu li a.caja{
     font-size: 1.1rem;
   }
+  .submenu li a.caja-1{
+    font-size: 1.1rem;
+  }
+  .fixed-header-res ul.submenu li a.caja-1{
+    font-size: 1.1rem;
+    background-color: rgb(0, 0, 0, 0.2);
+  }
+  .menu li:hover .submenu li a.caja-1{
+    font-size: 1.3rem;
+    transition: opacity 1.5s;
+  }
+  .fixed-header-res ul.submenu li a.caja{
+    font-size: 1.1rem;
+    padding-top: 0%;
+    background-color: rgb(0, 0, 0, 0.4);
+  }
   .menu li:hover .submenu li a.caja{
     font-size: 1.3rem;
     transition: opacity 1.5s;
+  }
+  .fixed-header ul.submenu li a.caja-1{
+    background-color: rgb(0, 0, 0, 0.4);
+    padding-top: 5px;
   }
 }
  /* MAIN SECTION */
